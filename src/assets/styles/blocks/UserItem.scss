@@ -1,0 +1,55 @@
+.UserItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 370px;
+
+  margin: 10px;
+  padding: 10px;
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  color: #000;
+  background-color: #fff;
+
+
+  transition: border 0.3s ease-in-out;
+
+  &:hover {
+    border: 1px solid #646cff;
+  }
+
+  &__content {
+    cursor: pointer;
+  }
+
+  &__name {
+    font-size: 24px;
+  }
+
+  &__email {
+    font-size: 16px;
+  }
+
+  &__img {
+    display: block;
+    width: 200px;
+    height: 150px;
+
+    object-fit: cover;
+  }
+
+  &__name {
+
+  }
+
+  &__email {
+
+  }
+
+  &__btn {
+    display: block;
+  }
+}

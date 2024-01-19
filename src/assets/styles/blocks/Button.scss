@@ -1,0 +1,30 @@
+.Button {
+  padding: 0.6em 1.2em;
+
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  text-transform: uppercase;
+
+  background-color: #1a1a1a;
+
+  border: 2px solid transparent;
+
+  transition: border-color 0.25s;
+
+  &-active {
+    border-color: #fff;
+  }
+
+  &:hover {
+    border-color: #646cff;
+  }
+
+  &:focus,
+  &:focus-visible {
+    border-color: #fff;
+  }
+}
