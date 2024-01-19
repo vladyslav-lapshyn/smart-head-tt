@@ -151,7 +151,7 @@
       </button>
     </div>
 
-    <UserList>
+    <UserList v-if="!userIsLoading">
       <UserItem
         v-for="user of users"
         :key="user.id"
